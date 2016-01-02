@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC0CFBB61C383D08003602A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0CFBB51C383D08003602A2 /* AppDelegate.swift */; };
+		DC0CFBB81C383D08003602A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0CFBB71C383D08003602A2 /* ViewController.swift */; };
+		DC0CFBBB1C383D08003602A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0CFBB91C383D08003602A2 /* Main.storyboard */; };
+		DC0CFBBE1C383D08003602A2 /* ParcoPrototype.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC0CFBBC1C383D08003602A2 /* ParcoPrototype.xcdatamodeld */; };
+		DC0CFBC01C383D08003602A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0CFBBF1C383D08003602A2 /* Assets.xcassets */; };
+		DC0CFBC31C383D08003602A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0CFBC11C383D08003602A2 /* LaunchScreen.storyboard */; };
+		DC0CFBCE1C383D08003602A2 /* ParcoPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0CFBCD1C383D08003602A2 /* ParcoPrototypeTests.swift */; };
+		DC0CFBD91C383D08003602A2 /* ParcoPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0CFBD81C383D08003602A2 /* ParcoPrototypeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC0CFBCA1C383D08003602A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC0CFBAA1C383D07003602A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0CFBB11C383D07003602A2;
+			remoteInfo = ParcoPrototype;
+		};
+		DC0CFBD51C383D08003602A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC0CFBAA1C383D07003602A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0CFBB11C383D07003602A2;
+			remoteInfo = ParcoPrototype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC0CFBB21C383D07003602A2 /* ParcoPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParcoPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0CFBB51C383D08003602A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC0CFBB71C383D08003602A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC0CFBBA1C383D08003602A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC0CFBBD1C383D08003602A2 /* ParcoPrototype.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParcoPrototype.xcdatamodel; sourceTree = "<group>"; };
+		DC0CFBBF1C383D08003602A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC0CFBC21C383D08003602A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC0CFBC41C383D08003602A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0CFBC91C383D08003602A2 /* ParcoPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParcoPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0CFBCD1C383D08003602A2 /* ParcoPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcoPrototypeTests.swift; sourceTree = "<group>"; };
+		DC0CFBCF1C383D08003602A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0CFBD41C383D08003602A2 /* ParcoPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParcoPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0CFBD81C383D08003602A2 /* ParcoPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcoPrototypeUITests.swift; sourceTree = "<group>"; };
+		DC0CFBDA1C383D08003602A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC0CFBAF1C383D07003602A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0CFBC61C383D08003602A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0CFBD11C383D08003602A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC0CFBA91C383D07003602A2 = {
+			isa = PBXGroup;
+			children = (
+				DC0CFBB41C383D07003602A2 /* ParcoPrototype */,
+				DC0CFBCC1C383D08003602A2 /* ParcoPrototypeTests */,
+				DC0CFBD71C383D08003602A2 /* ParcoPrototypeUITests */,
+				DC0CFBB31C383D07003602A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC0CFBB31C383D07003602A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC0CFBB21C383D07003602A2 /* ParcoPrototype.app */,
+				DC0CFBC91C383D08003602A2 /* ParcoPrototypeTests.xctest */,
+				DC0CFBD41C383D08003602A2 /* ParcoPrototypeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC0CFBB41C383D07003602A2 /* ParcoPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				DC0CFBB51C383D08003602A2 /* AppDelegate.swift */,
+				DC0CFBB71C383D08003602A2 /* ViewController.swift */,
+				DC0CFBB91C383D08003602A2 /* Main.storyboard */,
+				DC0CFBBF1C383D08003602A2 /* Assets.xcassets */,
+				DC0CFBC11C383D08003602A2 /* LaunchScreen.storyboard */,
+				DC0CFBC41C383D08003602A2 /* Info.plist */,
+				DC0CFBBC1C383D08003602A2 /* ParcoPrototype.xcdatamodeld */,
+			);
+			path = ParcoPrototype;
+			sourceTree = "<group>";
+		};
+		DC0CFBCC1C383D08003602A2 /* ParcoPrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC0CFBCD1C383D08003602A2 /* ParcoPrototypeTests.swift */,
+				DC0CFBCF1C383D08003602A2 /* Info.plist */,
+			);
+			path = ParcoPrototypeTests;
+			sourceTree = "<group>";
+		};
+		DC0CFBD71C383D08003602A2 /* ParcoPrototypeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC0CFBD81C383D08003602A2 /* ParcoPrototypeUITests.swift */,
+				DC0CFBDA1C383D08003602A2 /* Info.plist */,
+			);
+			path = ParcoPrototypeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC0CFBB11C383D07003602A2 /* ParcoPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0CFBDD1C383D08003602A2 /* Build configuration list for PBXNativeTarget "ParcoPrototype" */;
+			buildPhases = (
+				DC0CFBAE1C383D07003602A2 /* Sources */,
+				DC0CFBAF1C383D07003602A2 /* Frameworks */,
+				DC0CFBB01C383D07003602A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParcoPrototype;
+			productName = ParcoPrototype;
+			productReference = DC0CFBB21C383D07003602A2 /* ParcoPrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC0CFBC81C383D08003602A2 /* ParcoPrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0CFBE01C383D08003602A2 /* Build configuration list for PBXNativeTarget "ParcoPrototypeTests" */;
+			buildPhases = (
+				DC0CFBC51C383D08003602A2 /* Sources */,
+				DC0CFBC61C383D08003602A2 /* Frameworks */,
+				DC0CFBC71C383D08003602A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC0CFBCB1C383D08003602A2 /* PBXTargetDependency */,
+			);
+			name = ParcoPrototypeTests;
+			productName = ParcoPrototypeTests;
+			productReference = DC0CFBC91C383D08003602A2 /* ParcoPrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC0CFBD31C383D08003602A2 /* ParcoPrototypeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0CFBE31C383D08003602A2 /* Build configuration list for PBXNativeTarget "ParcoPrototypeUITests" */;
+			buildPhases = (
+				DC0CFBD01C383D08003602A2 /* Sources */,
+				DC0CFBD11C383D08003602A2 /* Frameworks */,
+				DC0CFBD21C383D08003602A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC0CFBD61C383D08003602A2 /* PBXTargetDependency */,
+			);
+			name = ParcoPrototypeUITests;
+			productName = ParcoPrototypeUITests;
+			productReference = DC0CFBD41C383D08003602A2 /* ParcoPrototypeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC0CFBAA1C383D07003602A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Felix Milea-Ciobanu";
+				TargetAttributes = {
+					DC0CFBB11C383D07003602A2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DC0CFBC81C383D08003602A2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DC0CFBB11C383D07003602A2;
+					};
+					DC0CFBD31C383D08003602A2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DC0CFBB11C383D07003602A2;
+					};
+				};
+			};
+			buildConfigurationList = DC0CFBAD1C383D07003602A2 /* Build configuration list for PBXProject "ParcoPrototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC0CFBA91C383D07003602A2;
+			productRefGroup = DC0CFBB31C383D07003602A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC0CFBB11C383D07003602A2 /* ParcoPrototype */,
+				DC0CFBC81C383D08003602A2 /* ParcoPrototypeTests */,
+				DC0CFBD31C383D08003602A2 /* ParcoPrototypeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC0CFBB01C383D07003602A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0CFBC31C383D08003602A2 /* LaunchScreen.storyboard in Resources */,
+				DC0CFBC01C383D08003602A2 /* Assets.xcassets in Resources */,
+				DC0CFBBB1C383D08003602A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0CFBC71C383D08003602A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0CFBD21C383D08003602A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC0CFBAE1C383D07003602A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0CFBB81C383D08003602A2 /* ViewController.swift in Sources */,
+				DC0CFBBE1C383D08003602A2 /* ParcoPrototype.xcdatamodeld in Sources */,
+				DC0CFBB61C383D08003602A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0CFBC51C383D08003602A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0CFBCE1C383D08003602A2 /* ParcoPrototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0CFBD01C383D08003602A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0CFBD91C383D08003602A2 /* ParcoPrototypeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC0CFBCB1C383D08003602A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0CFBB11C383D07003602A2 /* ParcoPrototype */;
+			targetProxy = DC0CFBCA1C383D08003602A2 /* PBXContainerItemProxy */;
+		};
+		DC0CFBD61C383D08003602A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0CFBB11C383D07003602A2 /* ParcoPrototype */;
+			targetProxy = DC0CFBD51C383D08003602A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC0CFBB91C383D08003602A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0CFBBA1C383D08003602A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC0CFBC11C383D08003602A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0CFBC21C383D08003602A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC0CFBDB1C383D08003602A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC0CFBDC1C383D08003602A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC0CFBDE1C383D08003602A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParcoPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Antetavit.ParcoPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC0CFBDF1C383D08003602A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParcoPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Antetavit.ParcoPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC0CFBE11C383D08003602A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParcoPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Antetavit.ParcoPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParcoPrototype.app/ParcoPrototype";
+			};
+			name = Debug;
+		};
+		DC0CFBE21C383D08003602A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParcoPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Antetavit.ParcoPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParcoPrototype.app/ParcoPrototype";
+			};
+			name = Release;
+		};
+		DC0CFBE41C383D08003602A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParcoPrototypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Antetavit.ParcoPrototypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParcoPrototype;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DC0CFBE51C383D08003602A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParcoPrototypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Antetavit.ParcoPrototypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParcoPrototype;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC0CFBAD1C383D07003602A2 /* Build configuration list for PBXProject "ParcoPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0CFBDB1C383D08003602A2 /* Debug */,
+				DC0CFBDC1C383D08003602A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0CFBDD1C383D08003602A2 /* Build configuration list for PBXNativeTarget "ParcoPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0CFBDE1C383D08003602A2 /* Debug */,
+				DC0CFBDF1C383D08003602A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC0CFBE01C383D08003602A2 /* Build configuration list for PBXNativeTarget "ParcoPrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0CFBE11C383D08003602A2 /* Debug */,
+				DC0CFBE21C383D08003602A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC0CFBE31C383D08003602A2 /* Build configuration list for PBXNativeTarget "ParcoPrototypeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0CFBE41C383D08003602A2 /* Debug */,
+				DC0CFBE51C383D08003602A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC0CFBBC1C383D08003602A2 /* ParcoPrototype.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC0CFBBD1C383D08003602A2 /* ParcoPrototype.xcdatamodel */,
+			);
+			currentVersion = DC0CFBBD1C383D08003602A2 /* ParcoPrototype.xcdatamodel */;
+			path = ParcoPrototype.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC0CFBAA1C383D07003602A2 /* Project object */;
+}
